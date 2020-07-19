@@ -1,0 +1,17 @@
+{% extends 'blog/main.html' %}
+{% block main_section %}
+  <div class="form-section">
+    <h2>Вы успешно вышли с аккаунта!</h2>
+    <a href="{% url 'user' %}">Войти снова</a>
+  </div>
+{% endblock main_section %}
+
+{% block aside_news_section %}
+  <h3><b>Легкий способ выучить англиский бесплатно!</b></h3>
+  <img src="https://preply.com/wp-content/uploads/2018/04/english1.jpg" class="img-thumbnail mb-1">
+  <p>Самый лёгкий способ выучить англиский, ведь в наше время очень важно и нужно знать англиский язык, поэтому советуем посмотреть это видео.
+  </p>
+  <a href="https://www.youtube.com/watch?v=aIWSYbbWoRg" target="_blank">
+    <button class="btn btn-warning">Посмотреть</button>
+  </a>
+{% endblock aside_news_section %}
